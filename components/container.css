@@ -1,0 +1,33 @@
+.container {
+
+	width: 1000px;
+	margin:50 auto;
+	padding: 30px;
+
+}
+
+.container h2 {
+	padding-left: 10px;
+}
+
+
+@media (max-width: 950px) {
+	.container {
+		width: 700px;
+	}
+
+}
+
+@media (max-width: 750px) {
+	.container {
+		width: 500px;
+	}
+
+}
+
+@media (max-width: 550px) {
+	.container {
+		width: 350px;
+	}
+
+}

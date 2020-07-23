@@ -1,0 +1,27 @@
+.button{
+
+	flex-basis: 250px;
+	flex-grow: 1;
+	margin: 5px;
+
+	text-decoration: none;
+
+	background-color: rgb(250,100,100);
+	color: white;
+	padding: 10px 20px;
+	border-radius: 5px;
+
+}
+
+
+.button:hover{
+	background-color: rgb(250,150,150);
+}
+
+
+.buttons{
+
+	display: flex;
+	flex-wrap;
+
+}
